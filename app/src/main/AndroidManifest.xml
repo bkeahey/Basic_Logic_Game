@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.owner.assignment_3">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LevelMenu"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GameBoard"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".WorldSelect"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".LevelMenu2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ProgressReport"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Register"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Leaderboard"
+            android:screenOrientation="landscape"></activity>
+    </application>
+
+</manifest>

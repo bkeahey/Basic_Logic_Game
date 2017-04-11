@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_world_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gamebackground"
+    tools:context="com.example.owner.assignment_3.WorldSelect">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/world_select"
+        android:layout_gravity="center"
+        android:textSize="60dp"
+        android:textColor="@color/yellow" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@color/purple"
+        android:textColor="@color/white"
+        android:id="@+id/worldOne"
+        android:text="@string/world1" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@color/purple"
+        android:textColor="@color/white"
+        android:id="@+id/worldTwo"
+        android:text="@string/world2" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/logout_btn"
+        android:id="@+id/logout_ws"
+        android:onClick="logout" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/leaderboard"
+            android:id="@+id/leaderboard"
+            android:onClick="ldrboard"
+            android:layout_marginLeft="160dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/prg_rpt"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/report" />
+
+        </LinearLayout>
+
+</LinearLayout>

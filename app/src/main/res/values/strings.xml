@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Assignment_3</string>
+    <string name="un_log">User Log:</string>
+    <string name="btn_prog_txt">Back</string>
+    <string name="tv_prog2"># of Failures</string>
+    <string name="back_btn">Back</string>
+    <string name="logout_btn">Logout</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="lb_fail_txt"># of Failures</string>
+    <string name="username">Username</string>
+    <string name="level1">Level 1</string>
+    <string name="level2">Level 2</string>
+    <string name="level3">Level 3</string>
+    <string name="play">PLAY</string>
+    <string name="reg">Register</string>
+    <string name="entr_un">Enter Username</string>
+    <string name="reg_un">Username:</string>
+    <string name="world_select">World Select</string>
+    <string name="world1">World 1</string>
+    <string name="world2">World 2</string>
+    <string name="prg_rpt">Progress Report</string>
+    <string name="title">Panda\'s Day Out</string>
+</resources>
